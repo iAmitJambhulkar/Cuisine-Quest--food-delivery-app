@@ -97,6 +97,17 @@ class DeliveryProgressPage extends StatelessWidget {
                     color: Colors.green,
                   ),
                 ),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).colorScheme.surface,
+                    shape: BoxShape.circle,
+                  ),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: const Icon(Icons.call),
+                    color: Colors.green,
+                  ),
+                ),
               ],
             ),
           ],
